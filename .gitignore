@@ -1,0 +1,30 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.crash.log
+crash.log
+
+# Terraform plan files
+*.plan
+
+# CLI / OS noise
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Python (sometimes used in hooks)
+__pycache__/
+*.pyc
+
+# Node (CodeBuild helpers, rare but possible)
+node_modules/
+
+# Local env files
+.env
+.env.*
