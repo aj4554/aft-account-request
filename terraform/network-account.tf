@@ -1,10 +1,6 @@
 module "coreinfra_network" {
 
-source = "github.com/aws-ia/terraform-aws-control_tower_account_factory//modules/aft-account-request-framework?ref=1.18.0"
-
-  providers = {
-    aws.ct_management = aws.ct_management
-  }
+  source = "./modules/aft-account-request"
 
   account_customizations_name = "network"
 
