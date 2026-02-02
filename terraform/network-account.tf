@@ -1,6 +1,6 @@
 module "coreinfra_network" {
 
-source = "git::https://github.com/aws-ia/terraform-aws-control_tower_account_factory.git//modules/aft-account-request-framework?ref=v1.18.0"
+source = "github.com/aws-ia/terraform-aws-control_tower_account_factory//modules/aft-account-request-framework?ref=v1.18.0"
 
   account_customizations_name = "network"
 
